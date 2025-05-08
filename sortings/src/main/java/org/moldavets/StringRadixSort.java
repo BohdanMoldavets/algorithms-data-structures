@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class StringRadixSort {
     public static void main(String[] args) {
 //        String[] array = new String[] {"bcdef", "cbcde","cbcda"};
-        String[] array = new String[] {"bcdef", "dbaqc", "abcde", "omadd", "bbbbb","a"};
+//        String[] array = new String[] {"bcdef", "dbaqc", "abcde", "omadd", "bbbbb","a"};
+        String[] array = {"a", "abc", "ab", "abcd", "b"};
 //        System.out.println(Character.toLowerCase('A') < Character.toLowerCase('Z'));
 //        System.out.println();
         stringRadixSort(array);
